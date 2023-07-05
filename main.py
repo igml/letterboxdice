@@ -62,7 +62,8 @@ def main(saved_url):
   
         if prompt == True:
           print(error)
-      # If the url is in the form letterboxd.com without https://, this will add it so that BeautifulSoup will avoid an error.
+      
+    # If the url is in the form letterboxd.com without https://, this will add it so that BeautifulSoup will avoid an error.
   
       if start == 0:
         url = 'https://' + url
